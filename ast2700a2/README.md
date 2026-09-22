@@ -6,11 +6,11 @@ This folder contains prebuilt firmware specifically for ASPEED AST2700 A2 silico
 
 ### Caliptra Firmware
 - **caliptra-fw.bin**
-  - **Source**: [chipsalliance/caliptra-sw (rt-1.2.5)](https://github.com/chipsalliance/caliptra-sw/tree/rt-1.2.5)
+  - **Source**: [chipsalliance/caliptra-sw (rt-1.3.0)](https://github.com/chipsalliance/caliptra-sw/tree/rt-1.3.0)
   - **Features**: Includes ASPEED 4 ECC public keys, 32 LMS public keys (keys 0~31), 1 ECC signature and 1 LMS signature. Vendor key: ECC key0, LMS key0.
 
 - **caliptra-fw-v2.bin**
-  - **Source**: [chipsalliance/caliptra-sw (rt-1.2.5)](https://github.com/chipsalliance/caliptra-sw/tree/rt-1.2.5)
+  - **Source**: [chipsalliance/caliptra-sw (rt-1.3.0)](https://github.com/chipsalliance/caliptra-sw/tree/rt-1.3.0)
   - **Features**: Same as caliptra-fw.bin but with updated vendor LMS keys 16~31. Use this binary when LMS keys 16~31 are rotated.
 
 ### DDR PHY Firmware
